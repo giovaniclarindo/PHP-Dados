@@ -3,11 +3,11 @@
 
     if ($mes >= 1 and $mes <= 6) {
 
-    	echo "voce esta no primeiro semestre";
+    	echo "Você está no primeiro semestre";
     } elseif ($mes >= 7 and $mes <= 12) {
 
-    	echo "voce está no segundo semestre";
+    	echo "Você está no segundo semestre";
     } else {
 
-    	echo "nao existe mês com este numero";
+    	echo "Não existe mês com este número";
     };
